@@ -1,0 +1,55 @@
+.page-members {
+    padding-left: 20vw;
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--page-bg-color);
+}
+
+.page-members h1 {
+    margin: 10px;
+    text-align: center;
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    font-weight: 800;
+    line-height: 1.5;
+}
+
+.members-container {
+    display: flex;
+    gap: 10px;
+    padding: 12px;
+    flex-wrap: wrap;
+}
+
+.member-card {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    min-height: 80px;
+    width: 80vw;
+    background-color: var(--card-bg-color);
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.member-card div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.member-card table tr {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.member-card .member-actions button {
+    margin-top: 10px;
+    padding: 8px 12px;
+    border-radius: 5px;
+    background-color: var(--btn-bg-color);
+    color: var(--btn-text-color);
+    border: none;
+    cursor: pointer;
+}

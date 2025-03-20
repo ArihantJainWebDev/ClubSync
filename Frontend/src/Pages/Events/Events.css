@@ -1,0 +1,81 @@
+.page-events {
+    padding-left: 20vw;
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--page-bg-color);
+}
+
+.page-events h1 {
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    font-weight: 800;
+    margin-left: 20px;
+    margin-top: 10px;
+    text-decoration: underline;
+    line-height: 1.5;
+}
+
+.event-card .event-jpg img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.page-events .event-card {
+    display: flex;
+    flex-direction: row;
+    gap: 18px;
+    background-color: var(--card-bg-color);
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.page-events .events-container h2 {
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    font-weight: 800;
+    margin-left: 10px;
+    margin-top: 10px;
+    line-height: 1.5;
+}
+
+.page-events .live-events,
+.page-events .upcoming-events {
+    display: flex;
+    gap: 50px;
+    padding: 20px;
+    flex-wrap: wrap;
+}
+
+.page-events .live-events .event-card,
+.page-events .upcoming-events .event-card {
+    min-height: 150px;
+    min-width: 200px;
+    background-color: var(--card-bg-color);
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.page-events .event-card button {
+    background-color: var(--primary-color);
+    color: var(--text-color);
+    border: none;
+    border-radius: 10px;
+    padding: 7px 15px;
+    font-size: 1rem;
+    font-weight: 600;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.page-events .event-card button:hover {
+    transition: 0.3s ease-in-out;
+    background-color: var(--secondary-color);
+}
+
+.upcoming-event-header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
