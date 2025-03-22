@@ -4,12 +4,11 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
+    "lint": "eslint .",
     "dev": "vite",
     "build": "vite build",
-    "lint": "eslint .",
-    "preview": "vite preview",
-    "start": "vite preview --port $PORT",
-    "build": "react-scripts build"
+    "preview": "vite preview --port $PORT",
+    "start": "vite preview --port $PORT"
   },
   "dependencies": {
     "@clerk/clerk-react": "^5.25.0",
